@@ -7,8 +7,8 @@ const request = require('request');
 //Url that will receive the reminder message to send as a push message
 const urlPushMessages = 'https://immense-garden-31721.herokuapp.com/pushMessage'
 // initialize the token and the channelSecret for the API of LINE
-const defaultAccessToken = 'x3/oRU7IHCzAhM/HHmTbtMFmYTLwcsBvDNtqIH/lyVtjlSwom59RcQxwLi5PPti51eK58YQpjQ+Mh8b1uOhKsGBRmhn8VRxojmfhok/IBjNtq41zyjX3DKMlS+uLSUG4ppaKp84EU8z2YoFvHouNqQdB04t89/1O/w1cDnyilFU=';
-const defaultSecret = 'e78cfda819d42709c53c32cfcbf21bcf';
+const defaultAccessToken = 'xxxxxxxxxxxxxxxxxxxxxxxx';
+const defaultSecret = 'xxxxxxxxxxxxxxxxxxxxxx';
 // create LINE SDK config from env variables
 const config = {
   channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN || defaultAccessToken,
